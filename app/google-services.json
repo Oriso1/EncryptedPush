@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "523026476426",
+    "firebase_url": "https://orifcm-8a8b4.firebaseio.com",
+    "project_id": "orifcm-8a8b4",
+    "storage_bucket": "orifcm-8a8b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523026476426:android:5cce7250f6279d22bcac73",
+        "android_client_info": {
+          "package_name": "encryptedpush.com.encryptedpush"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523026476426-dnm2hkeab8erilolku7nvjnr33ae3mdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh_xScHE3fBw0QtSImGfr3mMpisRvt2qA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523026476426-dnm2hkeab8erilolku7nvjnr33ae3mdq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EncryptedPush</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="notification_title">New Message</string>
+    <string name="notification_text">Youv\'e got new encrypted message</string>
+    <string name="your_message_text_is">Decrypted text message is: %s</string>
+    <string name="biometric_message_title">Biometric login</string>
+    <string name="verification_error">Verification error</string>
+    <string name="biometric_message_message">Log in using your biometric credentials to see your message</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="insert_message">Insert message</string>
+    <string name="send">Send</string>
+    <string name="use_biometric">Use Biometric</string>
+    <string name="cant_send_empty">Cannot send empty message</string>
+    <string name="signing_is_verified">Signing is verified\n</string>
+    <string name="encryption_done">Encryption done\n</string>
+    <string name="Signing_done">Signing done\n</string>
+    <string name="exit_app">Please exit app for sending\n</string>
+
+
+
+
+</resources>

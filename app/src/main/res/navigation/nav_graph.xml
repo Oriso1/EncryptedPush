@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/sendMessageFragment">
+
+    <fragment
+        android:id="@+id/sendMessageFragment"
+        android:name="encryptedpush.com.encryptedpush.ui.SendMessageFragment"
+        android:label="SendMessageFragment" >
+        <action
+            android:id="@+id/action_sendMessageFragment_to_decryptedMessageFragment"
+            app:destination="@id/decryptedMessageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/decryptedMessageFragment"
+        android:name="encryptedpush.com.encryptedpush.ui.DecryptedMessageFragment"
+        android:label="DecryptedMessageFragment" >
+        <argument
+            android:name="notificationExtras"
+            app:argType="encryptedpush.com.encryptedpush.data.NotificationData" />
+    </fragment>
+</navigation>
