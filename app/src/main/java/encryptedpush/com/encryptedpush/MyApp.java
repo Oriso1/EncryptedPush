@@ -18,14 +18,20 @@ public class MyApp extends Application {
         super.onCreate();
         FirebaseApp.initializeApp(this);
 
-        try {
-            KeyStoreHelper.createKeys(ENC_DEC);
-            KeyStoreHelper.createKeysForSigning(SIGN_VALIDATING);
-        } catch (Exception e) {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    KeyStoreHelper.createKeys(ENC_DEC);
+                    KeyStoreHelper.createKeysForSigning(SIGN_VALIDATING);
+                } catch (Exception e) {
 
-            Log.e(TAG,"Error creating keys");
-            e.printStackTrace();
-        }
+                    Log.e(TAG,"Error creating keys");
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+
 
     }
 }

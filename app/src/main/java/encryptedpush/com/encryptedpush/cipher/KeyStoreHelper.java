@@ -70,7 +70,7 @@ public class KeyStoreHelper {
                             .build());
 
             KeyPair keyPair = keyPairGenerator.generateKeyPair();
-            Log.d(TAG, "Public Key is: " + keyPair.getPublic().toString());
+            Log.d(TAG, "Keys for encryption/decription created");
 
         } catch (NoSuchProviderException | NoSuchAlgorithmException | InvalidAlgorithmParameterException e) {
             throw new RuntimeException(e);
@@ -94,7 +94,7 @@ public class KeyStoreHelper {
                             .setUserAuthenticationRequired(requireAuth)
                             .build());
             KeyPair keyPair = keyPairGenerator.generateKeyPair();
-            Log.d(TAG, "Public Key is: " + keyPair.getPublic().toString());
+            Log.d(TAG, "Keys for signing/validating created");
 
         } catch (NoSuchProviderException | NoSuchAlgorithmException | InvalidAlgorithmParameterException e) {
             throw new RuntimeException(e);
